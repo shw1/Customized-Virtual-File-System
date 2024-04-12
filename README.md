@@ -49,15 +49,13 @@ b. command to used Customized VFS:
 
 3. clear : clear  command will used to clear the console
 4. Customized VFS: > clear
-5. 
-6. create: create command is used to create new file with permission 1 (read only), 2(write only) and 3(read and write).
-7. Customised VFS : > create myfile.txt 3
-8. File is successfully created with file descriptor : 0
-
-9. Customized VFS : > create myfile.txt 1 // read only file
-10. Customized VFS : > create myfile.txt 2 // write only file
-11. Customized VFS : > create myfile.txt 3 // read and write only file
-write: write command is used to write in file
+5. create: create command is used to create new file with permission 1 (read only), 2(write only) and 3(read and write).
+6. Customised VFS : > create myfile.txt 3
+7. File is successfully created with file descriptor : 0
+8. Customized VFS : > create myfile.txt 1 // read only file
+9. Customized VFS : > create myfile.txt 2 // write only file
+10. Customized VFS : > create myfile.txt 3 // read and write only file
+11. write: write command is used to write in file
 
 
 
