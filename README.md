@@ -40,40 +40,23 @@ Code snippet of terminal after project started
 
 ![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/0c1c3646-a1c8-4eb7-b791-b4f5dd63be67)
 
+b. command to used Customized VFS:
 
-  
-
-command to used Customized VFS:
-
-man : man  command will give description of how to used different commands link read, write, create etc
-
-
-
-Customized VFS: > man create 
+1. man : man  command will give description of how to used different commands link read, write, create etc
+2. Customized VFS: > man create
+   
 ![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/6058a9ed-c932-437f-a9e0-01793ff93e0d)
 
- 
+3. clear : clear  command will used to clear the console
+4. Customized VFS: > clear
+5. 
+6. create: create command is used to create new file with permission 1 (read only), 2(write only) and 3(read and write).
+7. Customised VFS : > create myfile.txt 3
+8. File is successfully created with file descriptor : 0
 
-clear : clear  command will used to clear the console
-
-
-
-Customized VFS: > clear
-create: create command is used to create new file with permission 1 (read only), 2(write only) and 3(read and write).
-
-
-
-Customised VFS : > create myfile.txt 3
-File is successfully created with file descriptor : 0
-
-
-Customized VFS : > create myfile.txt 1 // read only file
-
-
-Customized VFS : > create myfile.txt 2 // write only file
-
-
-Customized VFS : > create myfile.txt 3 // read and write only file
+9. Customized VFS : > create myfile.txt 1 // read only file
+10. Customized VFS : > create myfile.txt 2 // write only file
+11. Customized VFS : > create myfile.txt 3 // read and write only file
 write: write command is used to write in file
 
 
