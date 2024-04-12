@@ -28,17 +28,14 @@ structures by referring Algorithms of UNIX operating system.
 
 # How to used this Project
 
-# 1. Commands to start this project
-cd Customized virtual File System- project
-g++ File-system.cpp -o file-exe
-./file-exe
-Now you are in Project Customized VFS : >
-
-help command will give all list of commands
-
-
-
-Customized VFS: > help
+a. Commands to start this project
+1. cd Customized virtual File System- project
+2. g++ File-system.cpp -o file-exe
+3. ./file-exe
+4. Now you are in Project Customized VFS : >
+5. help command will give all list of commands
+6. Customized VFS: > help
+   
 Code snippet of terminal after project started
 
 ![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/0c1c3646-a1c8-4eb7-b791-b4f5dd63be67)
