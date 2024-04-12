@@ -1,9 +1,9 @@
-Name of the Project: Customized Virtual File System.
-Technology Used:  System Programming using c++.
-User Interface: Command User Interface.
-Platform Required: Windows NT Platform OR Linux Distributions.
-Architectural requirement: Intel 32 bit processor.
-SDK used : None.
+1. Name of the Project: Customized Virtual File System.
+2. Technology Used:  System Programming using c++.
+3. User Interface: Command User Interface.
+4. Platform Required: Windows NT Platform OR Linux Distributions.
+5. Architectural requirement: Intel 32 bit processor.
+6. SDK used : None.
 
 # Description of the Project
 1. In this project we emulate all data structures which are used by operating system to
