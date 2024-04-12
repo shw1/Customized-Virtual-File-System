@@ -37,7 +37,7 @@ g++ File-system.cpp -o file-exe
 Customized VFS : >
 
 ### Commands
-For Detail usage of this command check 'Customized virtual file system documentation.pdf' file in this project.
+For Detail usage of this command check (https://github.com/shw1/Customized-Virtual-File-System/blob/main/Customized%20virtual%20file%20system%20documentation.pdf) file in this project.
 
 - **help**: Display a list of available commands.
 - **man**: Get a description of how to use different commands (e.g., read, write, create).
