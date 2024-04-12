@@ -1,18 +1,13 @@
  
 
-#Name of the Project: Customized Virtual File System
+# Name of the Project: Customized Virtual File System
+# Technology Used:  System Programming using c++
+# User Interface: Command User Interface
+# Platform Required: Windows NT Platform OR Linux Distributions
+# Architectural requirement: Intel 32 bit processor
+# SDK used : None
 
-#Technology Used:  System Programming using c++
-
-#User Interface: Command User Interface
-
-#Platform Required: Windows NT Platform OR Linux Distributions
-
-#Architectural requirement: Intel 32 bit processor
-
-#SDK used : None
-
-#Description of the Project
+# Description of the Project
 1. In this project we emulate all data structures which are used by operating system to
 manage File system oriented tasks.
 2. As the name suggest its virtual because we maintain all records in Primary storage.
@@ -23,34 +18,19 @@ subsystem as Open, Close, Read, Write, Lseek, Create, RM, LS, Stat, Fstat etc.
 structures by referring Algorithms of UNIX operating system.
 6. By using this project we can get overview of UFS (UNIX File System) on any platform.
 
-#Data Structures Used in the Project
+# Data Structures Used in the Project
+1. Inode Table,
+2. File Table
+3. UAREA
+4. User File Descriptor Table
+5. Super block
+6. Disk Inode List Block
+7. Data Block
+8. Boot Block etc.
 
-Inode Table,
+# How to used this Project
 
- File Table
-
- UAREA
-
-User File Descriptor Table
-
-Super block
-
- Disk Inode List Block
-
- Data Block
-
-Boot Block etc.
-
-Diagram of Data Structures Used: (Diagram here)
-
- 
-
-How to used this Project
-
-Commands to start this project
-
-
-
+# 1. Commands to start this project
 cd Customized virtual File System- project
 g++ File-system.cpp -o file-exe
 ./file-exe
