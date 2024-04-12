@@ -42,7 +42,7 @@ Code snippet of terminal after project started
 
 b. command to used Customized VFS:
 
-a. man : man  command will give description of how to used different commands link read, write, create etc
+a. man : man  command will give description of how to used different commands link read, write, create etc.                              
 command. Customized VFS: > man create
    
 ![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/6058a9ed-c932-437f-a9e0-01793ff93e0d)
