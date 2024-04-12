@@ -28,4 +28,37 @@ The Customized Virtual File System project emulates all data structures used by 
 
 ### How to Start the Project
 
-1. Navigate to the project directory:
+1. Navigate to the project directory:                                                                                                      cd Customized-Virtual-File-System-project
+2. Compile the project:
+g++ File-system.cpp -o file-exe
+3. Run the executable:
+./file-exe
+4. You are now in the Customized VFS prompt:
+Customized VFS : >
+
+### Commands
+
+- **help**: Display a list of available commands.
+- **man**: Get a description of how to use different commands (e.g., read, write, create).
+- **clear**: Clear the console.
+- **create**: Create a new file with permissions (read only, write only, read and write).
+- **write**: Write to a file.
+- **read**: Read from a file.
+- **open**: Open a file in read mode, write mode, or read and write mode.
+- **close**: Close a file.
+- **ls**: List all available commands.
+- **closeall**: Close all open files.
+- **stat**: Get statistical information about a file.
+- **truncate**: Delete data from a file.
+- **rm**: Remove a file.
+- **exit**: Terminate the file system.
+
+## Screenshots
+
+![Terminal Snippet 1](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/0c1c3646-a1c8-4eb7-b791-b4f5dd63be67)
+
+![Terminal Snippet 2](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/6058a9ed-c932-437f-a9e0-01793ff93e0d)
+
+![Terminal Snippet 3](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/a51a6b0f-4993-44e2-9eaa-ccf5f57b32bb)
+
+Thank you for using this documentation.
