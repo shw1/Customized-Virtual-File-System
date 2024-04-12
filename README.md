@@ -1,135 +1,117 @@
-1. Name of the Project: Customized Virtual File System.
-2. Technology Used:  System Programming using c++.
-3. User Interface: Command User Interface.
-4. Platform Required: Windows NT Platform OR Linux Distributions.
-5. Architectural requirement: Intel 32 bit processor.
-6. SDK used : None.
+Customized Virtual File System
+Project Overview
+Name: Customized Virtual File System
+Technology Used: System Programming using C++
+User Interface: Command Line Interface
+Platform Required: Windows NT Platform OR Linux Distributions
+Architectural Requirement: Intel 32-bit processor
+SDK Used: None
+Description
+The Customized Virtual File System project emulates all data structures used by the operating system to manage file system-oriented tasks. It's termed "virtual" because it maintains all records in primary storage. The project creates all necessary data structures for file subsystems and implements essential system calls and commands of the file subsystem such as Open, Close, Read, Write, Lseek, Create, RM, LS, Stat, Fstat, etc. The implementations utilize custom data structures inspired by the algorithms of UNIX operating systems. This project provides an overview of the UNIX File System (UFS) on any platform.
 
-# Description of the Project
-1. In this project we emulate all data structures which are used by operating system to
-manage File system oriented tasks.
-2. As the name suggest its virtual because we maintain all records in Primary storage.
-3. In this project we create all data structures which required for File Subsystems.
-4. We provide all implementations of necessary system calls and commands of File
-subsystem as Open, Close, Read, Write, Lseek, Create, RM, LS, Stat, Fstat etc.
-5. While providing the implementations of all above functionality we use our own data
-structures by referring Algorithms of UNIX operating system.
-6. By using this project we can get overview of UFS (UNIX File System) on any platform.
-
-# Data Structures Used in the Project
-1. Inode Table,
-2. File Table
-3. UAREA
-4. User File Descriptor Table
-5. Super block
-6. Disk Inode List Block
-7. Data Block
-8. Boot Block etc.
-
-# How to used this Project
-
-a. Commands to start this project
-1. cd Customized virtual File System- project
-2. g++ File-system.cpp -o file-exe
-3. ./file-exe
-4. Now you are in Project Customized VFS : >
-5. help command will give all list of commands
-6. Customized VFS: > help
-   
-Code snippet of terminal after project started
-
-![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/0c1c3646-a1c8-4eb7-b791-b4f5dd63be67)
-
-7. command to used Customized VFS:
-
-a. man : man  command will give description of how to used different commands link read, write, create etc.                              
-   Customized VFS: > man create
-   
-![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/6058a9ed-c932-437f-a9e0-01793ff93e0d)
-
-b. clear : clear  command will used to clear the console.                                                                                
-   Customized VFS: > clear
-
-c. create: create command is used to create new file with permission 1 (read only), 2(write only) and 3(read and write).                 
-   Customised VFS : > create myfile.txt 3                                                                                                
-   File is successfully created with file descriptor : 0
-9. Customized VFS : > create myfile.txt 1 // read only file
-10. Customized VFS : > create myfile.txt 2 // write only file
-11. Customized VFS : > create myfile.txt 3 // read and write only file
-12. write: write command is used to write in file
-13. Customised VFS : > write myfile.txt
-14. Enter the data :
-15. Hello world
-16. Sucessfully : 11 bytes written
-17. Customized VFS: > 
-
-read : read command is used to read file and we have to specified how many bytes we want to read.
-
-
-
-Customized VFS: > read myfile.txt
-Hello world
+Data Structures Used
+Inode Table
+File Table
+UAREA
+User File Descriptor Table
+Super Block
+Disk Inode List Block
+Data Block
+Boot Block, etc.
+Usage
+How to Start the Project
+Navigate to the project directory:
+arduino
+Copy code
+cd Customized-Virtual-File-System-project
+Compile the project:
+arduino
+Copy code
+g++ File-system.cpp -o file-exe
+Run the executable:
+bash
+Copy code
+./file-exe
+You are now in the Customized VFS prompt:
+yaml
+Copy code
 Customized VFS : >
-open : open command is used to open file in mode 1 (read mode), 2(write mode), 3 (read and write mode).
+Commands
+help: Display a list of available commands.
 
+bash
+Copy code
+Customized VFS : > help
+man: Get a description of how to use different commands (e.g., read, write, create).
 
+lua
+Copy code
+Customized VFS : > man create
+clear: Clear the console.
 
-Customized VFS: > open myfile.txt 3
-close : close command is used to close file
+arduino
+Copy code
+Customized VFS : > clear
+create: Create a new file with permissions (read only, write only, read and write).
 
+lua
+Copy code
+Customized VFS : > create myfile.txt 3
+write: Write to a file.
 
+arduino
+Copy code
+Customized VFS : > write myfile.txt
+read: Read from a file.
 
-Customized VFS: > close myfile.txt
-ls : ls command will give list of all command which are available.
+arduino
+Copy code
+Customized VFS : > read myfile.txt
+open: Open a file in read mode, write mode, or read and write mode.
 
+arduino
+Copy code
+Customized VFS : > open myfile.txt 3
+close: Close a file.
 
+arduino
+Copy code
+Customized VFS : > close myfile.txt
+ls: List all available commands.
 
-Customised VFS : > ls
-File Name       Inode number    File size       Link count
--------------------------------------------------
-myfile.txt              1               0               1
--------------------------------------------------
-Customised VFS : >
-closeall : closeall command is used to close all open file.
+bash
+Copy code
+Customized VFS : > ls
+closeall: Close all open files.
 
+yaml
+Copy code
+Customized VFS : > closeall
+stat: Get statistical information about a file.
 
+bash
+Copy code
+Customized VFS : > stat myfile.txt
+truncate: Delete data from a file.
 
-Customized VFS: > closeall
-stat: stat command give statistical information about file that is  properties.
+bash
+Copy code
+Customized VFS : > truncate myfile.txt
+rm: Remove a file.
 
+bash
+Copy code
+Customized VFS : > rm myfile.txt
+exit: Terminate the file system.
 
-
-Customised VFS : > stat myfile.txt
----------Statistical Information about file-----------
-File name : myfile.txt
-Inode Number 1
-File size : 1024
-Actual File size : 0
-Link count : 1
-Reference count : 3
-File Permission : Read & Write
- ------------------------------------------------------
-Customised VFS : >
-truncate: truncate command is used to delete data from file
-
-
-
-Customised VFS : > truncate myfile.txt
-Data Succesfully Removed
-rm:  rm command used to remove the file.
-
-
-
-Customised VFS : > rm giraff.txt
-File Successfully Deleted
-exit: exit command is used to terminate file system
-
-
-
+bash
+Copy code
 Customized VFS : > exit
-Code snippet of terminal 
+Screenshots
+Terminal Snippet 1
 
-![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/a51a6b0f-4993-44e2-9eaa-ccf5f57b32bb)
+Terminal Snippet 2
 
- 
- Thank you for using this documentation.
+Terminal Snippet 3
+
+Thank you for using this documentation.
