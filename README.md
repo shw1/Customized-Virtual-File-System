@@ -42,28 +42,27 @@ Code snippet of terminal after project started
 
 b. command to used Customized VFS:
 
-1. man : man  command will give description of how to used different commands link read, write, create etc
-2. Customized VFS: > man create
+a. man : man  command will give description of how to used different commands link read, write, create etc
+   Customized VFS: > man create
    
 ![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/6058a9ed-c932-437f-a9e0-01793ff93e0d)
 
 3. clear : clear  command will used to clear the console
 4. Customized VFS: > clear
-5. create: create command is used to create new file with permission 1 (read only), 2(write only) and 3(read and write).
-6. Customised VFS : > create myfile.txt 3
-7. File is successfully created with file descriptor : 0
-8. Customized VFS : > create myfile.txt 1 // read only file
-9. Customized VFS : > create myfile.txt 2 // write only file
-10. Customized VFS : > create myfile.txt 3 // read and write only file
-11. write: write command is used to write in file
 
+6. create: create command is used to create new file with permission 1 (read only), 2(write only) and 3(read and write).
+7. Customised VFS : > create myfile.txt 3
+8. File is successfully created with file descriptor : 0
+9. Customized VFS : > create myfile.txt 1 // read only file
+10. Customized VFS : > create myfile.txt 2 // write only file
+11. Customized VFS : > create myfile.txt 3 // read and write only file
+12. write: write command is used to write in file
+13. Customised VFS : > write myfile.txt
+14. Enter the data :
+15. Hello world
+16. Sucessfully : 11 bytes written
+17. Customized VFS: > 
 
-
-Customised VFS : > write myfile.txt
-Enter the data : 
-Hello world
-Sucessfully : 11 bytes written
-Customized VFS: > 
 read : read command is used to read file and we have to specified how many bytes we want to read.
 
 
