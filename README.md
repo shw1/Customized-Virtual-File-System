@@ -180,6 +180,7 @@ exit: exit command is used to terminate file system
 Customized VFS : > exit
 Code snippet of terminal 
 
-Open image-20240410-094726.png
-image-20240410-094726.png
+![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/a51a6b0f-4993-44e2-9eaa-ccf5f57b32bb)
+
+ 
  Thank you for using this documentation.
