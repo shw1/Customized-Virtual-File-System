@@ -481,7 +481,7 @@ int CreateFile(char *name,int permission)
 //	Input			: 	char*
 //	Output			: 	Integer
 //	Description 	: 	Remove Created Files
-//	Author			: 	Prasad Dangare
+//	Author			: 	Shweta Chandankhede
 //	Date			:	5 January 2024
 //
 //######################################################################################
@@ -734,8 +734,8 @@ void CloseFileByName(int fd)
 //	Input			: 	Char
 //	Output			: 	Integer
 //	Description 	: 	Close Existing File By Its Name
-//	Author			: 	Prasad Dangare
-//	Date			:	28 June 2021
+//	Author			: 	Shweta Chandankhede
+//	Date			:	5 January 2024
 //
 //######################################################################################
 
