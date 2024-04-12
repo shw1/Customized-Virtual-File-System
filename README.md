@@ -1,35 +1,29 @@
  
 
- Name of the Project: Customized Virtual File System
+#Name of the Project: Customized Virtual File System
 
-Technology Used:  System Programming using c++
+#Technology Used:  System Programming using c++
 
-User Interface: Command User Interface
+#User Interface: Command User Interface
 
-Platform Required: Windows NT Platform OR Linux Distributions
+#Platform Required: Windows NT Platform OR Linux Distributions
 
-Architectural requirement: Intel 32 bit processor
+#Architectural requirement: Intel 32 bit processor
 
-SDK used : None
+#SDK used : None
 
-Description of the Project
-
-In this project we emulate all data structures which are used by operating system to
+#Description of the Project
+1. In this project we emulate all data structures which are used by operating system to
 manage File system oriented tasks.
-
-As the name suggest its virtual because we maintain all records in Primary storage.
-
-In this project we create all data structures which required for File Subsystems.
-
-We provide all implementations of necessary system calls and commands of File
+2. As the name suggest its virtual because we maintain all records in Primary storage.
+3. In this project we create all data structures which required for File Subsystems.
+4. We provide all implementations of necessary system calls and commands of File
 subsystem as Open, Close, Read, Write, Lseek, Create, RM, LS, Stat, Fstat etc.
-
-While providing the implementations of all above functionality we use our own data
+5. While providing the implementations of all above functionality we use our own data
 structures by referring Algorithms of UNIX operating system.
+6. By using this project we can get overview of UFS (UNIX File System) on any platform.
 
-By using this project we can get overview of UFS (UNIX File System) on any platform.
-
-Data Structures Used in the Project
+#Data Structures Used in the Project
 
 Inode Table,
 
