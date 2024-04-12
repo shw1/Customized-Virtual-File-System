@@ -297,7 +297,7 @@ int GetFDFromName(char *name)
 //	Output			: 	PINODE
 //	Description 	: 	Return Inode Value Of File
 //	Author			: 	Shweta Chandankhede
-//	Date			:	28 June 2021
+//	Date			:	5 January 2024
 //
 //######################################################################################
 
@@ -375,7 +375,7 @@ void CreateDILB()
 //	Output			: 	None
 //	Description 	: 	Initialize Inode Values 
 //	Author			: 	Shweta Chandankhede
-//	Date			:	28 June 2021
+//	Date			:	5 January 2024
 //
 //######################################################################################
 
@@ -401,7 +401,7 @@ void InitialiseSuperBlock()
 //	Output			: 	None
 //	Description 	: 	Create New Files
 //	Author			: 	Shweta Chandankhede
-//	Date			:	28 June 2021
+//	Date			:	5 January 2024
 //
 //######################################################################################
 
@@ -1099,8 +1099,8 @@ int stat_file(char *name)
 //	Input			: 	Char*
 //	Output			: 	Integer
 //	Description 	: 	Delete All Data From The File
-//	Author			: 	Prasad Dangare
-//	Date			:	28 June 2021
+//	Author			: 	Shweta Chandankhede
+//	Date			:	5 January 2024
 //
 //######################################################################################
 
