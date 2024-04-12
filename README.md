@@ -80,8 +80,8 @@ man : man  command will give description of how to used different commands link 
 
 
 Customized VFS: > man create 
-Open image.png
-image.png
+Open CVFS1.png
+CVFS1.png
  
 
 clear : clear  command will used to clear the console
