@@ -69,8 +69,9 @@ help command will give all list of commands
 Customized VFS: > help
 Code snippet of terminal after project started
 
-Open CVFS1.png
-CVFS1.png
+![image](https://github.com/shw1/Customized-Virtual-File-System/assets/108781084/0c1c3646-a1c8-4eb7-b791-b4f5dd63be67)
+
+
   
 
 command to used Customized VFS:
